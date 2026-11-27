@@ -3,10 +3,16 @@
 <head>
 <!-- Google tag (Google Ads) -->
 <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-WWP6WF78"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18597673775"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('config', 'AW-18597673775');
+  document.addEventListener('click', function(e){
+    var a = e.target.closest && e.target.closest('a[href*="wa.me"]');
+    if (a) { gtag('event', 'conversion', {'send_to': 'AW-18597673775/rwT0CLLwxcAdEK_2h6RF', 'value': 1.0, 'currency': 'BRL'}); }
+  });
 </script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -166,7 +172,7 @@ footer p{max-width:62ch;margin:0}
       <h2>Você emite nota fiscal, mas trabalha como empregado?</h2>
       <p class="lead">A contratação de gestores por PJ pode ser legítima, ou pode encobrir uma relação de emprego. O que define não é o contrato assinado, e sim como o trabalho acontece no dia a dia.</p>
       <p>Analiso o caso com discrição, explico riscos e alternativas, inclusive a via negociada, antes de qualquer decisão.</p>
-      <a class="btn" href="#contato" style="margin-top:12px">Avaliar meu contrato PJ</a>
+      <a class="btn" href="pj/" style="margin-top:12px">Entenda a contratação PJ</a>
     </div>
     <ul class="signs" aria-label="Sinais a observar">
       <li>Cumpre horário e responde a um superior hierárquico</li>
@@ -245,7 +251,7 @@ footer p{max-width:62ch;margin:0}
 <footer>
   <div class="wrap">
     <img src="img/logo-claro.png" alt="Afonso Magalhães & Advogados">
-    <p>Afonso Henrique Vidigal Botelho de Magalhães · OAB/RJ 178.787 · OAB/DF 42.071<br>Conteúdo de caráter informativo, conforme o Código de Ética e Disciplina da OAB e o Provimento 205/2021. Não constitui promessa de resultado; cada caso exige análise individual.</p>
+    <p>Afonso Henrique Vidigal Botelho de Magalhães · OAB/RJ 178.787 · OAB/DF 42.071<br>Conteúdo de caráter informativo, conforme o Código de Ética e Disciplina da OAB e o Provimento 205/2021. Não constitui promessa de resultado; cada caso exige análise individual.<br>Este site usa cookies do Google para medir o desempenho de anúncios.</p>
   </div>
 </footer>
 
